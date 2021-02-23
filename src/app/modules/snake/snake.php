@@ -10,4 +10,12 @@ class Snake {
         $this->end = $end;
     }
 
+    public function getStart(): int {
+        return $this->start;
+    }
+
+    public function getEnd(): int {
+        return $this->end;
+    }
+
 }
